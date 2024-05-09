@@ -24,9 +24,12 @@ export default {
           "jersey-25-charted-regular" : ["Jersey 25 Charted", sans-serif],
           "briem-hand" : ["Briem Hand", cursive],
         } */
-      
-    }
-  },
+      },
+      animation: {
+        'ping' : 'ping 4s ease-in-out 1',
+        'pulse' : 'pulse 1s ease-in-out infinite',
+      }
+    },
   plugins: [
     
   ],
